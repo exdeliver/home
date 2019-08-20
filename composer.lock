@@ -672,12 +672,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/exdeliver/causeway.git",
-                "reference": "86e11deff7d293f1442c01c5fd4702403bf5ca52"
+                "reference": "7dcfe47f18b17c509ee6099491404b4036e6ca9a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/exdeliver/causeway/zipball/86e11deff7d293f1442c01c5fd4702403bf5ca52",
-                "reference": "86e11deff7d293f1442c01c5fd4702403bf5ca52",
+                "url": "https://api.github.com/repos/exdeliver/causeway/zipball/7dcfe47f18b17c509ee6099491404b4036e6ca9a",
+                "reference": "7dcfe47f18b17c509ee6099491404b4036e6ca9a",
                 "shasum": ""
             },
             "require": {
@@ -696,6 +696,7 @@
                 "owen-it/laravel-auditing": "8.*",
                 "rennokki/befriended": "^1.2",
                 "spatie/laravel-permission": "^2.32",
+                "unisharp/laravel-filemanager": "~1.8",
                 "van-ons/laraberg": "^0.0.1@beta",
                 "vinkla/hashids": "^5.1",
                 "yajra/laravel-datatables-oracle": "~8.0"
@@ -737,7 +738,7 @@
                 "laravel",
                 "php"
             ],
-            "time": "2019-07-15T11:28:10+00:00"
+            "time": "2019-07-16T19:43:57+00:00"
         },
         {
             "name": "ezyang/htmlpurifier",
@@ -2321,16 +2322,16 @@
         },
         {
             "name": "myparcelnl/sdk",
-            "version": "v2.1.1",
+            "version": "v2.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/myparcelnl/sdk.git",
-                "reference": "26aeb4ab604c402d83f457907d44b6c924aed60e"
+                "reference": "9eb1e9429b78be35ba6a53d3b784a47f90d12078"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/myparcelnl/sdk/zipball/26aeb4ab604c402d83f457907d44b6c924aed60e",
-                "reference": "26aeb4ab604c402d83f457907d44b6c924aed60e",
+                "url": "https://api.github.com/repos/myparcelnl/sdk/zipball/9eb1e9429b78be35ba6a53d3b784a47f90d12078",
+                "reference": "9eb1e9429b78be35ba6a53d3b784a47f90d12078",
                 "shasum": ""
             },
             "require": {
@@ -2371,7 +2372,7 @@
             ],
             "description": "This package is designed to send and receive data from MyParcel by means of an API.",
             "homepage": "https://www.myparcel.nl",
-            "time": "2019-06-24T14:04:04+00:00"
+            "time": "2019-07-15T14:00:27+00:00"
         },
         {
             "name": "nesbot/carbon",
@@ -4880,6 +4881,80 @@
             "description": "CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.",
             "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles",
             "time": "2017-11-27T11:13:29+00:00"
+        },
+        {
+            "name": "unisharp/laravel-filemanager",
+            "version": "v1.9.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/UniSharp/laravel-filemanager.git",
+                "reference": "aaf2764f26eb8dcc9356bea1e25010333c2e61f4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/UniSharp/laravel-filemanager/zipball/aaf2764f26eb8dcc9356bea1e25010333c2e61f4",
+                "reference": "aaf2764f26eb8dcc9356bea1e25010333c2e61f4",
+                "shasum": ""
+            },
+            "require": {
+                "ext-exif": "*",
+                "ext-fileinfo": "*",
+                "illuminate/support": ">=4.2.0",
+                "intervention/image": "2.*",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "~3.0",
+                "phpspec/phpspec": "~2.1",
+                "phpunit/phpunit": "~4.8"
+            },
+            "suggest": {
+                "ext-gd": "to use GD library based image processing.",
+                "ext-imagick": "to use Imagick based image processing."
+            },
+            "bin": [
+                "bin/debug"
+            ],
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "UniSharp\\LaravelFilemanager\\LaravelFilemanagerServiceProvider"
+                    ],
+                    "aliases": []
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "UniSharp\\LaravelFilemanager\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Trevor Sawler",
+                    "email": "trevor.sawler@gmail.com"
+                },
+                {
+                    "name": "UniSharp Ltd.",
+                    "email": "unisharp-service@unisharp.com"
+                }
+            ],
+            "description": "A file upload/editor intended for use with Laravel 5 and CKEditor / TinyMCE",
+            "keywords": [
+                "CKEditor",
+                "file",
+                "filemanager",
+                "image",
+                "laravel",
+                "manager",
+                "tinymce",
+                "upload"
+            ],
+            "time": "2018-07-05T11:36:08+00:00"
         },
         {
             "name": "van-ons/laraberg",

@@ -179,6 +179,11 @@ return [
 
     ],
 
+    'debug_blacklist' => [
+        '_SERVER' => array_keys($_ENV),
+        '_ENV' => array_keys($_ENV),
+    ],
+
     /*
     |--------------------------------------------------------------------------
     | Class Aliases
@@ -226,7 +231,7 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
         'CW' => \Exdeliver\Causeway\Facades\CausewayServiceFacade::class,
-
+'CWCart' => \Exdeliver\Cart\Facades\CartServiceFacade::class,
     ],
 
 ];

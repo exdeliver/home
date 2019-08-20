@@ -1,0 +1,125 @@
+body {
+    background: url('/images/patternimg.png');
+}
+
+a {
+    -webkit-transition: color 1s; /* For Safari 3.0 to 6.0 */
+    transition: color 1s; /* For modern browsers */
+}
+
+.gutenberg__content {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#exdeliver-logo {
+    display: -webkit-inline-flex;
+    content: attr(data-text);
+    background: #454545;
+    padding: 1px 8px;
+    color: #fff !important;
+}
+
+#exdeliver-logo-reverse {
+    display: -webkit-inline-flex;
+    content: attr(data-text);
+    background: white;
+    padding: 1px 8px;
+    color: #454545 !important;
+}
+
+#exdeliver-logo:hover {
+    color: black;
+}
+
+.navbar-nav li {
+    text-transform: uppercase;
+    border-bottom: solid white;
+}
+
+.navbar-nav li.active {
+    border-bottom: solid red;
+}
+
+.navbar-nav li a {
+    border-right: 1px solid #f1f1f1;
+    -webkit-transition: color 1s; /* For Safari 3.0 to 6.0 */
+    transition: color 1s; /* For modern browsers */
+}
+
+.navbar-nav li:hover {
+    border-bottom: solid red;
+}
+
+#exdeliver-home h1,h2,h3 {
+    display: -webkit-inline-flex;
+    content: attr(data-text);
+    background: #454545;
+    padding: 1px 8px;
+    color: #fff !important;
+}
+
+#exdeliver-content #exdeliver-home {
+    padding: 20px 20px;
+    background: white;
+}
+
+
+#exdeliver-footer {
+    background: #2f3032;
+    color: white;
+}
+
+#exdeliver-footer ul {
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+#exdeliver-footer ul li a {
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 400;
+    line-height: 40px;
+    text-transform: capitalize;
+    transition: all 0.3s ease 0s;
+}
+
+section {
+    padding: 50px 0px;
+    margin: 10px 0px;
+}
+
+.borderedtext {
+    display: -webkit-inline-flex;
+    content: attr(data-text);
+    background: #454545;
+    padding: 1px 8px;
+    color: #fff !important;
+}
+
+.cookie-container {
+    position: fixed;
+    bottom: 15px;
+    z-index: 1000;
+    top: 75px;
+    right: 30px;
+    left: unset;
+}
+
+.cookie {
+    padding: 20px 30px;
+    display: block;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,.2);
+}
+
+.cookie-header {
+    font-weight: bolder;
+}
+
