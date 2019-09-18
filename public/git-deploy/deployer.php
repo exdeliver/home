@@ -177,7 +177,7 @@ if (!empty(TOKEN) && isset($_SERVER["HTTP_X_HUB_SIGNATURE"]) && $token !== hash_
                 fputs($file, "*** AFTER_PULL INITIATED ***" . "\n");
 
                 // execute the command, returning the output and exit code
-                exec(AFTER_PULL . " 2>&1", $output, $exit);
+                exec(AFTER_PULL, $output, $exit);
 
                 // reformat the output as a string
                 $output = (!empty($output) ? implode("\n", $output) : "[no output]") . "\n";
