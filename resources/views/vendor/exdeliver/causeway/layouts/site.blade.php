@@ -27,7 +27,6 @@
 </head>
 <body>
 <div id="app">
-    <h1>testf</h1>
     <div id="exdeliver-app">
         @include('site::layouts.partials._cookie')
         @include('site::layouts.partials._navigation')
