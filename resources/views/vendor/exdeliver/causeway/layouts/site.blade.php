@@ -17,7 +17,6 @@
     <link href="{{ causewayAsset('css/app.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="{{asset('vendor/laraberg/css/laraberg.css')}}">
     <link rel="stylesheet" href="{{asset('css/exdeliver.css')}}">
-
     <script>
         window.Laravel = <?php echo json_encode([
             'csrfToken' => csrf_token(),
